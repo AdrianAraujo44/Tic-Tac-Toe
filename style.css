@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin:0
+}
+body  {
+    background-color: gray;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#title {
+    font-family: 'Goldman', cursive;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 2px 2px #000 ;
+}
+
+#scoreboard {
+    color: #ccc;
+    margin-bottom: 5px;
+    font-weight: bold
+}
+
+.scoreboard {
+    display: flex;
+    font-size: 20px;
+    color: #ccc;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.scoreboard #x {
+    margin-left: 5px;
+    font-weight: bold
+} 
+.scoreboard #o {
+    margin-left: 80px;
+    font-weight: bold
+} 
+
+.scoreboard #draw {
+    margin-left: 70px;
+    font-weight: bold
+} 
+
+#developer {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.board {
+    width: 385px;
+    height: 385px;
+    background-color:none; 
+    display: flex;
+    flex-wrap:  wrap; 
+}
+
+.cells {
+    border: 2px solid #ccc;
+    width: 120px;
+    height: 120px;
+    padding: -10px;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: rgb(241, 235, 235);
+    margin-right: 4px;
+}
+.cells h2 {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.red {
+    color: rgb(209, 37, 37);
+    text-shadow: 1px 1px  #fff;
+}
+
+.blue {
+    color: rgb(36, 36, 216);
+    text-shadow: 1px 1px  #fff;
+}
+
+#x, #o, #draw{
+    display: flex;
+}
+
+#pointsX ,#pointsO, #pointsDraw {
+    margin-left: 10px;
+}
